@@ -121,28 +121,28 @@ const Text5 = () =>
       <Rightnav/>
       <div className="carousel2">
         <div>
-          <button onClick={() => setShowText1(!showText1)} >JUNIOR DESIGNER <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText1(!showText1)} >JUNIOR DESIGNER - 2018  <img src="./Dropdown fat.png"/></button>
           {/* <Text1 /> */}
           {showText1 ? <Text1 /> : null}
         </div>
 
         <div>
-          <button onClick={() => setShowText2(!showText2)}>GRAPHIC DESIGNER <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText2(!showText2)}>GRAPHIC DESIGNER - 2018 - 2020 <img src="./Dropdown fat.png"/></button>
           {showText2 ? <Text2 /> : null}
         </div>
 
         <div>
-          <button onClick={() => setShowText3(!showText3)}>GRAPHIC DESIGNER <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText3(!showText3)}>GRAPHIC DESIGNER - 2020 - 2020 <img src="./Dropdown fat.png"/></button>
           {showText3 ? <Text3 /> : null}
         </div>
 
         <div>
-          <button onClick={() => setShowText4(!showText4)}>CREATIVE DESIGNER/ART DIRECTOR <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText4(!showText4)}>ART DIRECTOR - 2021 - 2022 <img src="./Dropdown fat.png"/></button>
           {showText4 ? <Text4 /> : null}
         </div>
 
         <div>
-          <button onClick={() => setShowText5(!showText5)}>FREELANCE DESIGNER/UNIVERSITY STUDIES <img src="./Dropdown fat.png"/></button>
+          <button onClick={() => setShowText5(!showText5)}>FREELANCE DESIGNER/UNIVERSITY STUDIES - 2022 - 2022<img src="./Dropdown fat.png"/></button>
           {showText5 ? <Text5 /> : null}
         </div>
  
