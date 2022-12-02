@@ -22,11 +22,6 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}>
-          {/* <Route path='home' element={<Home/>}/>
-          <Route path='photography' element={<Photography/>}/>
-          <Route path='photoshootstyling' element={<PhotoshootStyling/>}/>
-          <Route path='printdesign' element={<PrintDesign/>}/>
-          <Route path='webdesign' element={<WebDesign/>}/> */}
         </Route>
           <Route path='/photography' element={<Display category_id="1"/>}/>
           <Route path='/photoshootstyling' element={<Display category_id="3"/>}/>

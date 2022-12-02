@@ -22,21 +22,19 @@ function Rightnav() {
   return (
     <div className='rightside'>
       <ul>
-		    <li className="drop"><a onMouseOver={handlerMouseOver}  href="#">Folio</a> 
+		    <li className="drop"><Link onMouseOver={handlerMouseOver} to="#">Folio</Link> 
           <ul className="dropdown bg-white" onMouseLeave={handlerMouseLeave}>
-              <li ><a  href="/photography">Photography</a></li>
-              <li ><a  href="/PhotoshootStyling">Photoshoot Styling</a></li>
-              <li ><a  href="/WebDesign">Web & Digital design</a></li>
-              <li ><a  href="/PrintDesign">Print design</a></li>
+              <li ><Link to="/photography">Photography</Link></li>
+              <li ><Link to="/PhotoshootStyling">Photoshoot Styling</Link></li>
+              <li ><Link to="/WebDesign">Web & Digital design</Link></li>
+              <li ><Link to="/PrintDesign">Print design</Link></li>
             </ul>
           </li>
-        <li><a href="/about">About</a> </li>
-        <li><a href="/contact">Contact</a> </li>
+        <li><Link to="/about">About</Link> </li>
+        <li><Link to="/contact">Contact</Link> </li>
 	    </ul>
       
-      {/* <a href="/contact"><button className="button-solidW">Contact</button></a>
-      <a href="/about"><button className="button-solidW">About</button></a>
-      <a href="/folio"><button className="button-solidW">Folio</button></a> */}
+      
     </div>
   )
 }
